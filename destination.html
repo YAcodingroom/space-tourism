@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- google font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+  </style>
+
+  <!-- js -->
+  <script defer src="./javascript/script.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/destination.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-bar">
+        <a class="logo" href="./index.html" aria-label="logo">
+          <img src="./assets/shared/logo.svg" alt="logo">
+        </a>
+        <button class="nav-btn" aria-label="open navbar">
+          <img src="./assets/shared/icon-hamburger.svg" alt="navigation button">
+        </button>
+      </div>
+      <div class="nav-list barlow upper label-text">
+        <button class="nav-btn nav-close" aria-label="close navbar">
+          <img src="./assets/shared/icon-close.svg" alt="close button">
+        </button>
+        <a class="nav-item" href="./index.html">
+          <span>00</span>
+          Home
+        </a>
+        <a class="nav-item active" href="./destination.html">
+          <span>01</span>
+          Destination
+        </a>
+        <a class="nav-item" href="./crew.html">
+          <span>02</span>
+          Crew
+        </a>
+        <a class="nav-item" href="./technology.html">
+          <span>03</span>
+          Technology
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="small-title barlow upper">
+      <span>01</span>
+      Pick your destination
+    </h2>
+
+    <article>
+      <div class="data-img">
+        <img src="./assets/destination/image-moon.png" alt="moon">
+      </div>
+
+      <div class="subnav-list label-text barlow upper purple">
+        <span class="subnav-item active-destinations" data-group="destinations" data-name="Moon">Moon</span>
+        <span class="subnav-item" data-group="destinations" data-name="Mars">Mars</span>
+        <span class="subnav-item" data-group="destinations" data-name="Europa">Europa</span>
+        <span class="subnav-item" data-group="destinations" data-name="Titan">Titan</span>
+      </div>
+
+      <div class="data-description">
+        <h1 class="subtitle upper">Moon</h1>
+        <p class="content barlow purple">
+          See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.
+        </p>
+
+        <div class="planet-data upper">
+          <div class="distance">
+            <p class="subheading barlow purple">Avg. distance</p>
+            <p class="subcontent">384,400 km</p>
+          </div>
+          <div class="travel">
+            <p class="subheading barlow purple">Est. travel time</p>
+            <p class="subcontent">3 days</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">YAL</a>.
+    </div>
+  </footer>
+</body>
+
+</html>

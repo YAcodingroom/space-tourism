@@ -1,0 +1,121 @@
+body {
+	background-image: url('../assets/technology/background-technology-mobile.jpg');
+}
+
+main {
+	padding: 0.4rem 0;
+}
+
+.data-img {
+	overflow: hidden;
+}
+
+.data-img > img {
+	width: 100%;
+	height: 23vh;
+	object-fit: cover;
+	object-position: 50% 60%;
+}
+
+.subnav-list {
+	justify-content: center;
+}
+
+.subnav-item {
+	margin: 0 0.5rem;
+	border: 1px solid #ffffff50;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: transparent;
+}
+
+.data-description {
+	padding: 1.5rem 2rem;
+}
+
+.heading {
+	margin-bottom: 1.5rem;
+}
+
+.small-title {
+	margin-bottom: 0.8rem;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+	body {
+		background-image: url('../assets/technology/background-technology-tablet.jpg');
+	}
+	main {
+		padding: 0;
+	}
+	footer {
+		margin-top: 5rem;
+	}
+	h2.small-title {
+		padding: 2.5rem;
+	}
+	.data-img > img {
+		height: 30vh;
+		object-position: 50% 70%;
+	}
+	.subnav-item {
+		margin: 2rem 1rem;
+		width: 3.5rem;
+		height: 3.5rem;
+		font-size: 1.5rem;
+		line-height: 3.5rem;
+	}
+	.data-description {
+		padding: 0 10rem;
+	}
+}
+
+/* nodebook */
+@media (min-width: 1400px) {
+	body {
+		background-image: url('../assets/technology/background-technology-desktop.jpg');
+	}
+	main {
+		padding: 5rem 0 0 9rem;
+	}
+	article {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+	}
+	footer {
+		margin: 0;
+	}
+	h2.small-title {
+		padding: 0;
+	}
+	.data-img {
+		margin: 0;
+		flex-basis: 35vw;
+	}
+	.data-img > img {
+		width: 100%;
+		height: auto;
+	}
+	.subnav-list {
+		flex-direction: column;
+		flex-basis: 10vw;
+		order: 1;
+	}
+	.subnav-item {
+		margin: 0 0 3rem 0;
+		font-size: 2rem;
+	}
+	.subnav-item:not(.active-technology):hover {
+		border: 1px solid #fff;
+	}
+	.data-description {
+		flex-basis: 45vw;
+		align-self: center;
+		padding: 0 8rem 0 0;
+		text-align: start;
+	}
+}
