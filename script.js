@@ -7,7 +7,7 @@ const subnavItems = document.querySelectorAll('.subnav-item')
 const dataImg = document.querySelector('.data-img')
 const dataDescription = document.querySelector('.data-description')
 
-const BASE_URL = '../jsons/data.json'
+const BASE_URL = './jsons/data.json'
 let isShow = false
 
 const replaceData = function (img, content) {
