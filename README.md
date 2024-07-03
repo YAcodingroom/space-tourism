@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - GitHub - [YAL](https://github.com/YAcodingroom)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@YAcodingroom](https://www.frontendmentor.io/profile/YAcodingroom)
