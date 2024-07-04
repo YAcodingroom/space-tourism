@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://vocus.cc/article/6683e2aafd8978000166415f
 - Live Site URL: https://yacodingroom.github.io/space-tourism/
 
 ## My process
